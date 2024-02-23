@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dropdown {
+  @apply absolute h-full right-0 top-full w-full p-5 bg-mirageBlue min-w-[300px] flex flex-col gap-2 justify-center items-center;
+}
+
+.dropdown_link {
+  @apply text-[20px] font-publicSans text-waterWhite font-bold;
+}
